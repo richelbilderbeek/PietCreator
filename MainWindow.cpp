@@ -590,4 +590,4 @@ void MainWindow::slotNewOutput( QString str )
 
 
 
-#include "MainWindow.moc"
+//#include "MainWindow.moc"

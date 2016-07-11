@@ -78,4 +78,4 @@ int NPietObserver::call_readint( void* object )
 }
 
 
-#include "NPietObserver.moc"
+//#include "NPietObserver.moc"

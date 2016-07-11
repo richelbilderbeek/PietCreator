@@ -309,4 +309,4 @@ QSize ImageModel::imageSize() const
     return mImage.size();
 }
 
-#include "ImageModel.moc"
+//#include "ImageModel.moc"

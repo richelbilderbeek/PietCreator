@@ -170,4 +170,4 @@ void CommandWidget::slotSetViewWidth()
 }
 
 
-#include "CommandWidget.moc"
+//#include "CommandWidget.moc"

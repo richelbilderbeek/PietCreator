@@ -91,4 +91,4 @@ void KColorPatch::dropEvent( QDropEvent *event )
     }
 }
 
-#include "KColorPatch.moc"
+//#include "KColorPatch.moc"

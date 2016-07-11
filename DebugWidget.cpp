@@ -28,6 +28,7 @@ extern "C"
 #include "CommandImpl.h"
 
 #include <QDebug>
+#include "ui_DebugWidget.h"
 
 DebugWidget::DebugWidget( ImageModel* model, QWidget* parent, Qt::WindowFlags f ): QWidget( parent, f ), mImageModel( model )
 {
@@ -272,7 +273,8 @@ Command DebugWidget::command( int light_change, int hue_change )
         }
         break;
     }
+  throw std::logic_error("Should not get here");
 }
 
 
-#include "DebugWidget.moc"
+

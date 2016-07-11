@@ -104,12 +104,12 @@ int CommandsModel::colorIndex( const QModelIndex& index ) const
 }
 
 
-int CommandsModel::rowCount( const QModelIndex& parent ) const
+int CommandsModel::rowCount( const QModelIndex& /* parent */) const
 {
     return 6;
 }
 
-int CommandsModel::columnCount( const QModelIndex& parent ) const
+int CommandsModel::columnCount( const QModelIndex& /* parent */) const
 {
     return 3;
 }

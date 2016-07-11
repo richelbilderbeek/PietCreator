@@ -97,4 +97,4 @@ bool PixelDelegate::editorEvent( QEvent* event, QAbstractItemModel* model, const
     return QStyledItemDelegate::editorEvent(event, model, option, index);
 }
 
-#include "PixelDelegate.moc"
+//#include "PixelDelegate.moc"

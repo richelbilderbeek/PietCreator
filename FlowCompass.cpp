@@ -31,10 +31,10 @@ FlowCompass::FlowCompass( QWidget* parent ) :
         QWidget( parent ),
         mCCDirection( FlowCompass::Left ),
         mDPDirection( FlowCompass::Right ),
-        mDPColor( 0xa4, 0x00, 0x00 ),
         mCCColor( 0x4e, 0x9a, 0x06 ),
-        mArrowSize( 20 ),
-        mPadding( 5 )
+        mDPColor( 0xa4, 0x00, 0x00 ),
+        mPadding( 5 ),
+        mArrowSize( 20 )
 {
     setMinimumSize( 100, 100 );
 }
@@ -226,5 +226,5 @@ void FlowCompass::setDPDirection( const FlowCompass::Direction& direction )
 }
 
 
-#include "FlowCompass.moc"
+//#include "FlowCompass.moc"
 

@@ -165,6 +165,6 @@ void ViewMonitor::populateCells( KColorCells* cells )
 
 
 
-#include "ViewMonitor.moc"
+//#include "ViewMonitor.moc"
 
 

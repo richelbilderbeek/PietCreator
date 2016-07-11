@@ -47,4 +47,4 @@ QSize ResizeDialog::newSize() const
     return QSize( mWidthSpin->value(), mHeightSpin->value() );
 }
 
-#include "ResizeDialog.moc"
+//#include "ResizeDialog.moc"

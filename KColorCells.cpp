@@ -329,4 +329,4 @@ void KColorCells::mouseDoubleClickEvent( QMouseEvent * /*e*/ )
         emit colorDoubleClicked( cell , color( cell ) );
 }
 
-#include "KColorCells.moc"
+//#include "KColorCells.moc"

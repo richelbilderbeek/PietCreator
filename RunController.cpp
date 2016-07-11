@@ -420,4 +420,4 @@ void RunController::captureStdout()
     mOutputTimer->start( 50 );
 #endif
 }
-#include "RunController.moc"
+//#include "RunController.moc"
